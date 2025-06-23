@@ -1,6 +1,6 @@
 streamlit
-pandas
 numpy
+pandas
 matplotlib
-scikit-learn
 reportlab
+scikit-learn
