@@ -10,7 +10,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 
 # Load the pre-trained model
-with open("heart.pkl", "rb") as f:
+with open("HEART-DISEASE-PREDICTION/HeartDiseaseprediction-main/HeartDiseaseprediction-main/heart.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Connect to the SQLite database
